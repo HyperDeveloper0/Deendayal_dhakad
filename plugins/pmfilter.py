@@ -2121,7 +2121,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🌿 ᴛᴇʟᴇɢʀᴀᴘʜ', callback_data='tele')
         ],[
             InlineKeyboardButton('🚩 ғᴏɴᴛ', callback_data='font'),
-            InlineKeyboardButton('📋 Jsᴏɴ', callback_data='json')
+            InlineKeyboardButton('📋 ᴊsᴏɴ', callback_data='json')
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
@@ -2147,7 +2147,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 📜', url='https://github.com/Deendayal403/Deendayal_dhakad.git'),
+            
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
